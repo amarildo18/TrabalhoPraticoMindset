@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <title>Facelet Title</title>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"></link>
+        <h:outputStylesheet library="default" name="css/bootstrap.min.css" />
+        <h:outputStylesheet library="default" name="css/now-ui-kit.css?v=1.3.0" />
+        <h:outputStylesheet library="default" name="css/demo.css" />
+    </h:head>
+    <h:body>
+        <div class="wrapper">
+            <div id="navbar" class="clear-filter" filter-color="orange">
+                <div class="navigation-example" style="background-image:url('/trabalhoPraticoMindset/javax.faces.resource/default/images/header.jpg.jsf')">
+                    <!-- Navbar -->
+                    <nav class="navbar navbar-expand-lg bg-primary fixed-top navbar-transparent " color-on-scroll="400">
+                        <div class="container">
+                            <div class="navbar-translate">
+                                <a class="navbar-brand" href="#" rel="tooltip" title="Desenvolvido por Amarildo Ferreira" data-placement="bottom" target="_blank">
+                                    Mindset
+                                </a>
+                                <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-bar top-bar"></span>
+                                    <span class="navbar-toggler-bar middle-bar"></span>
+                                    <span class="navbar-toggler-bar bottom-bar"></span>
+                                </button>
+                            </div>
+                            <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="./assets/img/blurred-image-1.jpg">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <h:link class="nav-link" outcome="index">
+                                            <i class="fa fa-home"></i>
+                                            <p>Inicio</p>
+                                        </h:link>
+                                    </li>
+                                    <li class="nav-item">
+                                        <h:link class="nav-link" outcome="sobre">
+                                            <i class="fab fa-phone"></i>
+                                            <p>Sobre</p>
+                                        </h:link>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink1" data-toggle="dropdown">
+                                            <i class="fa fa-book-open design_app"></i>
+                                            <p>Conteúdos</p>
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink1">
+                                            <h:link class="dropdown-item" outcome="mindset">
+                                                <i class="fa fa-headphones business_chart-pie-36"></i> Mindset
+                                            </h:link>
+                                            <h:link class="dropdown-item" outcome="circulo-dourado">
+                                                <i class="fa fa-circle design_bullet-list-67"></i> Circulo dourado
+                                            </h:link>
+                                            <h:link outcome="locus-controle" class="dropdown-item" >
+                                                <i class="fa fa-clock design_bullet-list-67 d-lg-none"></i> Locus de controle
+                                            </h:link>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <h:link class="nav-link" outcome="contacto">
+                                            <i class="fa fa-phone"></i>
+                                            <p>Contacto</p>
+                                        </h:link>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link" rel="tooltip" title="Siga-nos no Twitter" data-placement="bottom" href="#">
+                                            <i class="fab fa-twitter"></i>
+                                            <p class="d-lg-none d-xl-none">Twitter</p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" rel="tooltip" title="Dê-nos um Like Facebook" data-placement="bottom" href="#">
+                                            <i class="fab fa-facebook-square"></i>
+                                            <p class="d-lg-none d-xl-none">Facebook</p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" rel="tooltip" title="Siga-nos no Instagram" data-placement="bottom" href="#">
+                                            <i class="fab fa-instagram"></i>
+                                            <p class="d-lg-none d-xl-none">Instagram</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="section section-tabs">
+                <div class="">
+                    <div class="container text-center">
+                        <h2 class="title">Sobre este projecto</h2>
+                    </div>
+                    <div class="container text-center">
+                        <div class="row">
+
+                            <div class="col-md-6 col-lg-6 justify-content-md-left">
+
+                                <p class="description" style="text-align: justify">
+                                    Este projecto enquadra-se no ambito do curso de programação Java com Jakarta EE. A nível de conteúdo tem como objectivo
+                                    proporcionar um ambiente digital em que os jovens dos 12 aos 20 anos de idade possam consultar e saber sobre o que é Mindset
+                                    , Locus de controle e Circulo dourado.
+
+                                    A nível técnico tem como principal objectivo avaliar os pricnipais conceitos práticos sobre construção de sites com JSF, em 
+                                    principais componentes fornecidos, permitindo assim consolidar os principais conceitos a ter em conta na construção de páginas 
+                                    com a tecnologia em questão.
+                                </p>
+
+                            </div>
+                            <div class="col-md-6 col-lg-6">
+                                <h:graphicImage library="default" name="images/reaching-target.png" style="margin-top:15px;max-height: 350px;" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  Rodape -->
+            <footer class="footer" data-background-color="black">
+                <div class=" container ">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    Amarildo Ferreira
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Sobre
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Contactos
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="copyright" id="copyright">
+                        &copy;
+                        <script>
+                            document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
+                        </script>,Todos os direitos reservados.
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <!--   Core JS Files   -->
+        <h:outputScript library="default" name="js/jquery.min.js" />
+        <h:outputScript library="default" name="js/popper.min.js" />
+        <h:outputScript library="default" name="js/bootstrap.min.js" />
+        <h:outputScript library="default" name="js/bootstrap-switch.js" />
+        <h:outputScript library="default" name="js/nouislider.min.js" />
+        <h:outputScript library="default" name="js/bootstrap-datepicker.js" />
+        <h:outputScript library="default" name="js/now-ui-kit.js?v=1.3.0" />
+        <h:outputScript library="default" name="js/init.js" />
+        <!--  Google Maps Plugin    -->
+        <!--script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script-->
+    </h:body>
+</html>
+
