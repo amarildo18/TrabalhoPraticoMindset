@@ -1,0 +1,1 @@
+web: java -jar target/trabalhoPraticoMindset-1.0.jar
